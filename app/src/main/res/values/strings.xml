@@ -1,0 +1,4 @@
+<resources>
+	<string name="app_name">Speech Output Demo</string>
+	<string name="speak">Speak</string>
+</resources>
