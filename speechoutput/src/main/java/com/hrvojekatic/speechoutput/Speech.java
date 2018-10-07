@@ -7,7 +7,7 @@ import android.util.Log;
 
 import java.util.Locale;
 
-public class Speech {
+public final class Speech {
 	private static final String TAG = Speech.class.getSimpleName();
 	private static final String DEFAULT_INIT_MESSAGE = "TextToSpeech ready.";
 	private static TextToSpeech sTts;
