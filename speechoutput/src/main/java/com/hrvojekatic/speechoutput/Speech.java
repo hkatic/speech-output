@@ -100,9 +100,9 @@ public final class Speech {
 	public static void speak(String text) {
 		if (sTts != null) {
 			if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.LOLLIPOP) {
-				sTts.speak(text, TextToSpeech.QUEUE_FLUSH, null, null);
+				sTts.speak(text, TextToSpeech.QUEUE_ADD, null, null);
 			} else {
-				sTts.speak(text, TextToSpeech.QUEUE_FLUSH, null);
+				sTts.speak(text, TextToSpeech.QUEUE_ADD, null);
 			}
 		}
 	}
